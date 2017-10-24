@@ -1,4 +1,4 @@
-## Adding & removing code
+## Adding code
 
 Great! You’ve written your first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** that you snap together to make programs.
 
