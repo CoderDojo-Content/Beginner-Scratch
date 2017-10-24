@@ -11,5 +11,5 @@ Time to get coding!
     say [Hello!] for (2) secs
     ```
 
-Now click the Start Program button and watch what happens!
+* Now click the Start Program button and watch what happens!
 
