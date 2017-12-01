@@ -5,7 +5,7 @@
 
  That fish is a bit big compared to your shark though. Use **grow** and **shrink** to make it the right size. ![](assets/sprites2.png)
 
-Click on **grow** or **shrink** and then click on the fish to make it get bigger or smaller.
+ Click on **grow** or **shrink** and then click on the fish to make it get bigger or smaller.
 
 
 2. Nice! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will be the shark, trying to catch the fish.

@@ -13,6 +13,6 @@
 
 4. Pick this shark ![](assets/cool4.png)
 
-5. Now remove the cat costumes by selecting each of them and clicking on the **x** ![](assets/cool4.png)
+5. Now remove the cat costumes by selecting each of them and clicking on the **x** ![](assets/cool5.png)
 
  Now you have a shark!

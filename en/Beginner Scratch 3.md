@@ -1,9 +1,9 @@
 
 1. Now your scratch cat moves, but wouldn’t it be more fun to control it with the arrow keys? On this card, you’re going learn how to do that!
 
-As you’ve probably guessed, you’re going to need **event** and **motion** blocks again! This time, you’re looking for this block: ![](assets/moving1.png)
+ As you’ve probably guessed, you’re going to need **event** and **motion** blocks again! This time, you’re looking for this block: ![](assets/moving1.png)
 
-If you click the little arrow (▼) beside “space” you’ll get a list of all the keys on your keyboard to pick from. You’re going to need four of these blocks and you can connect them to **motion** blocks like this: ![](assets/moving2.png)
+ If you click the little arrow (▼) beside “space” you’ll get a list of all the keys on your keyboard to pick from. You’re going to need four of these blocks and you can connect them to **motion** blocks like this: ![](assets/moving2.png)
 
  * The four blocks you'll need are for "left arrow", "right arrow", "up arrow" and "down arrow"
  * -10 means: **go back 10 steps**

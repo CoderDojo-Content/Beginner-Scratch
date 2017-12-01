@@ -5,7 +5,7 @@
 
  The **control** block is an `"if... then"` block and needs to be given a true/false value. The **sensing** block you’re going to use is `"touching..."` where you have to pick the sprite name (if you haven’t changed it, it'll be Sprite1). From those pointy ends, you can tell it’s going to give you the true/false value `"if... then"` needs.
 
-You can add this into the `"forever"` loop on the fish, after the `"if on edge bounce"`: ![](assets/catch1.png)
+ You can add this into the `"forever"` loop on the fish, after the `"if on edge bounce"`: ![](assets/catch1.png)
 
 
 2. Of course, you’ve just added an `"if... then"` with no then. You can make the fish vanish, as if the shark ate it by using the `"hide"` block you can find in **looks** inside the `"if... then"`. ![](assets/catch2.png)
@@ -19,9 +19,9 @@ You can add this into the `"forever"` loop on the fish, after the `"if on edge b
 
 5. That’s a game! There’s no way to keep score, though... or to win. You can fix that too! To keep score, you’ll need somewhere to store the score, a way of adding to it and a way of resetting it when the game is restarted.
 
-First: Storing it. When you want to store information in a program, you use something called a variable. Think of it like a box with a label on it: you can put something in it, check what’s in it and change what’s in it. You’ll find variables under **data**, but you need to create one first! ![](assets/catch5.png)
+ First: Storing it. When you want to store information in a program, you use something called a variable. Think of it like a box with a label on it: you can put something in it, check what’s in it and change what’s in it. You’ll find variables under **data**, but you need to create one first! ![](assets/catch5.png)
 
- * Click `"Make a Variable"` ![](assets.catch6.png)
+ * Click `"Make a Variable"` ![](assets/catch6.png)
  * Enter "Score" as the name ![](assets/catch7.png)
  * It's in your program!
 
