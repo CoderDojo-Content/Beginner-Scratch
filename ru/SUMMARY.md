@@ -6,5 +6,5 @@
 * [КРУТОЙ ПРИКИД](Beginner Scratch 4.md)
 * [БОЛЬШЕ ПЕРСОНАЖЕЙ/SPRITES](Beginner Scratch 5.md)
 * [КОНТРОЛЬ РЫБКИ](Beginner Scratch 6.md)
-* [Fishing!](Beginner Scratch 7.md)
+* [РЫБНАЯ ЛОВЛЯ](Beginner Scratch 7.md)
 

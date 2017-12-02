@@ -1,34 +1,27 @@
 
-1. The shark moves, the fish swims, but they don’t interact: If the fish swims right into the shark’s mouth, nothing happens. Time to change that!
+1. Акула движется, рыбка плавает, но они не взаимодействуют: если рыбка плывет прямо в пасть акуле, ничего не происходит. Пора это изменить!
 
- First, you need to know if the fish is touching the shark. For this, you'll need a **control** block and a **sensing** block. **Sensing** blocks collect information, like where the sprite is, what it’s touching, etc.
+ Во-первых, тебе нужно знать, когда рыбка касается пасти акулы. Для этого тебе нужен **control** блок и  блок **sensing / ощущений**. **Sensing** блоки собирают информацию, такую как где находится sprite, что его касается и пр.
 
- The **control** block is an `"if... then"` block and needs to be given a true/false value. The **sensing** block you’re going to use is `"touching..."` where you have to pick the sprite name (if you haven’t changed it, it'll be Sprite1). From those pointy ends, you can tell it’s going to give you the true/false value `"if... then"` needs.
+ Блоку **control** `"if...then"` \(«если что-то..., тогда то-то..»\) нужно задавать значения true/false. В **sensing** блоке тебе понадобится использовать `"touching"` / (касание, прикосновение\), где ты должен выбрать кликом имя sprite \(если ты не поменял его имя, то по умолчанию он — Sprite1\). Вот в этом прямоугольнике с острыми концами ты можешь задать true/false value для `”if...then"`.
+   
+ Ты можешь добавить этот блок в `"forever"` цикл рыбки, сразу после `”if on edge bounce”`: ![](assets/catch1.png)
 
- You can add this into the `"forever"` loop on the fish, after the `"if on edge bounce"`: ![](assets/catch1.png)
+2. Конечно,  ты добавил блок  `"if...then"`, но без тогда то-то. Ты можешь заставить рыбку исчезнуть, как будто ее съела акула, используя блок `"hide"` - «спрятать», который ты найдешь в looks, внутри кода `"if...then"`. ![](assets/catch2.png)
 
+3. Ну, теперь, когда акула хватает рыбку, та исчезает совсем. Это как-то не очень забавно. Если ты поставишь блок `"show"` \(показать\), который тоже находится в **looks**, в самое начало коды рыбки, то игра будет начинаться заново - reset the game. ![](assets/catch3.png)
 
-2. Of course, you’ve just added an `"if... then"` with no then. You can make the fish vanish, as if the shark ate it by using the `"hide"` block you can find in **looks** inside the `"if... then"`. ![](assets/catch2.png)
+4. Уже лучше!  Но тебе не надо, чтобы игрок каждый раз начинал игру заново с одной рыбкой! Ты можешь здесь схитрить — когда рыбка спрятана, подожди, перемести ее, и покажи снова. Да, теперь кажется, что вокруг много рыбы, но это все тот же самый sprite рассекает по волнам! ![](assets/catch4.png)
 
+5. Вот это игра! Но как же ”score”-счет игры? Как понять: ничья или кто выиграл. Ты можешь справиться и с этим! Чтобы вести счет,  тебе его нужно где-то хранить, причем так, чтобы можно было добавлять в него и обнулять, если game is restarted — при новой игре. 
 
-3. Now once the shark catches the fish it disappears for good. That’s not great. Put the `"show"` block, also from **looks** in at the very start of the fish code, so you can reset the game. ![](assets/catch3.png)
+ Во- первых: хранение (storing it).  Когда ты захочешь хранить какую-то информацию в программе, тебе необходима такая штука как ”variable”- переменная. Подумай о переменной как о ящике с этикеткой (лейблом, что внутри) на нем: ты можешь положить что то в него, можешь проверить, что там есть внутри, и можешь заменить его содержимое. Ты найдешь  ”variable” в блоке кодов **data** — данные , но сначала придется создать одну! ![](assets/catch5.png)
 
+ * Кликни на `"Make a Variable"` ![](assets/catch6.png)
+ * Введи «Счет» как название ![](assets/catch7.png)
+ * Это в твоей программе!
 
-4. Better, but you don’t want the player restarting every time they catch one fish! You can be clever here — when the fish is hidden, wait, move it, then show it again. It looks like lots of fish, but it’s that one sprite moving around! ![](assets/catch4.png)
+6. Теперь тебе нужно update (обновлять)  ”variable”- переменную, когда рыбка съедена, и обнулить, когда игра начинается заново game is restarted. Обе задачи достаточно просты: из **data** бери `"Set Score to 0"` («Установить счет на 0») и `"Change Score by 1"` («Изменять счет на 1») блоки, и ставь их в свою программу: ![](assets/catch8.png)
 
-
-5. That’s a game! There’s no way to keep score, though... or to win. You can fix that too! To keep score, you’ll need somewhere to store the score, a way of adding to it and a way of resetting it when the game is restarted.
-
- First: Storing it. When you want to store information in a program, you use something called a variable. Think of it like a box with a label on it: you can put something in it, check what’s in it and change what’s in it. You’ll find variables under **data**, but you need to create one first! ![](assets/catch5.png)
-
- * Click `"Make a Variable"` ![](assets/catch6.png)
- * Enter "Score" as the name ![](assets/catch7.png)
- * It's in your program!
-
-
-6. Now you need to update the variable whenever a fish is eaten, and to reset it when the game is restarted. Those are both pretty easy: From the **data** section, take the `"Set Score to 0"` and `"Change Score by 1"` blocks and put them into your program: ![](assets/catch8.png)
-
-
-7. Cool! Now you’ve got a score and everything. Pick a score at which the player wins and make something cool happen! Maybe the shark congratulates them, or a "You Win" sprite appears, or music plays or... you get the idea!
-
+7. Cool! Круто! Теперь у тебя даже счет есть и вообще все что надо для игры. Установи счет при котором игрок побеждает, и сделай так чтобы это праздновалось! Может быть сытая акула поздравит игрока, или сообщение "You Win"
 
