@@ -1,47 +1,46 @@
+1. Эти «Суши Карточки» помогут тебе научиться создавать компьютерные программы в нашей программе “Scratch” \(произностится «скратч», т. е. царапина\). Чтобы этим заняться тебе понадобится сама программа **Scratch**!
 
-1. These Sushi Cards are going to help you learn to create computer programs in Scratch. To do this, you’re going to need to have **Scratch**!
+   У тебя есть выбор: можно скачать и установить на свой компьютер с сайта [dojo.soy/downloadscratch](dojo.soy/downloadscratch) или можно работать онлайн на сайте [dojo.soy/usescratch](dojo.soy/usescratch). 
+   
+1. Как только ты зайдешь онлайн или установишь и запустишь Scratch, то увидишь окно как на картинке ниже.
 
-  You can either download it and install it on your computer by going to [dojo.soy/downloadscratch](dojo.soy/downloadscratch) or use it in your web browser by going to [dojo.soy/usescratch](dojo.soy/usescratch). Do one of these two and once you’re set up, move on to the next step.
+   Экран Scratch разделен на несколько частей, которые надо будет запомнить. Они помечены на картинке. ![](assets/setup1.png)
 
-2. Once you sign-in to the online Scratch, or load it on your computer, you’ll see a screen like the one below.
+   * Stage - Сцена
+   * Start Program – Запустить Программу
+   * Stop Program – Остановить Программу
+   * Current Sprite Panel – Панель Выбранного Объекта
+   * Sprite List – Список Объектов
+   * Code Blocks Palette – Палитра блоков с кодами
 
- This screen has a few parts you’ll need to remember. They are highlighted in the picture below. ![](assets/setup1.png)
+1. Вот объяснение слов с картинки:
 
- * Stage
- * Start Program
- * Stop Program
- * Current Sprite Pannel
- * Sprite List
- * Code Blocks Pallette
+   **Stage/Сцена**
 
+   Это пространство на котором отображается, работает написанная тобой программка.
+  * Сцена состоит из одного или нескольких слоев фона \(готового изображения или цветовой заливки и эффектов\). Можно называть этот **фон**, по-взрослому и профессиональному **background** \(произносится «бэкграунд»\). 
+  * Также на сцене отображаются привязанные к ней **блоки кодов** для фона \(с этим мы разберемся чуть позже\).
+   
+   **Sprites/ Объекты**
 
-3. There are a few words from that picture that need explaining:
+   «Спрайтами» называются объекты, с которыми работаем на сцене. В Scratch объектами являются:
+   
+   * Изображение Объекта (персонажа) на **сцене**\stage 
+   * Любые **costumes / костюмы** \(внешний вид\) объекта или персонажа
+   * Любые **sounds / звуки** привязанные к объекту
+   * Любые **блоки кодов** привязанные к объекту ![](assets/setup2.png)
 
- **The Stage**
+   **Блоки Кодов**
 
- This is where your Scratch Programs run. It has
-   * One or more **backgrounds** (images on the background of the screen)
-   * Any **code blocks** associated with it (we’ll get to this)
- **Sprites**
+   Коды в Scratch представлены в виде блоков, которые можно совмещать вместе, как пазлы, создавая свою программу. На **Code Blocks Palette / Палитре блоков кодов** нужно выбрать подходящий блок и перетащить на **Current Sprite Panel/Панель Выбранного Объекта** и присоединить блоки, как пазлы, вместе.
+   Имеется 10 категорий блоков, которые сгруппированы по цвету и смыслам блоков кодов \(движение, внешний вид, звуки, рисование, информация, события, контроль, реагирование, операции, больше блоков\), они находятся на верху **Code Blocks Palette / Палитры блоков кодов**.
 
- Any object that goes on the stage is a sprite.
- In Scratch, the sprite is:
- * The **image** on the stage
- * Any alternative **costumes** (looks) it has
- * Any **sounds** associated with it
- * Any **code blocks** associated with it ![](assets/setup2.png)
- 
- The **current sprite** is the one that's selected in the **sprite list**.
+4. Пора программировать! Возвращаемся в Scratch и кликаем на Кота Скратча в **Sprite List / Списке Объектов**. Теперь **кот** является **Current Sprite / Выбранным объектом**.
+   В категории **Events / События** на **Code Blocks Palette/Палитры блоков с кодами** выбираем `”when [flag symbol] clicked”` реакцию/event, и тащим мышой блок на **Current Sprite Panel / Панель Выбранного Объекта**.  
+   Go to the **Events** category in the **code blocks palette** and choose the `“when [flag symbol] clicked”` event, then drag it onto the **current sprite panel**.
+   Теперь в категории **Looks / Внешний вид** на **Code Blocks Palette / Палитре блоков с кодами** выбираем тот, на котором `”say [Hello!] for [2] secs”` и тащим блок на **Current Sprite Panel / Панель Выбранного Объекта** и присоединяем его вот так: ![](assets/setup3.png)
 
- **Code Blocks**
-
- Code in Scratch comes as blocks, that you click together to make programs. You choose blocks from the **code blocks palette** and drag them into the **current sprite panel**, then click them together.
- There are 10 categories of blocks, which are colour coded, and you can select each category from the list at the top of the **code blocks palette**.
+   Теперь жмем кнопку ((Start Program/Запустить Программу** и смотрим, что получилось!
 
 
-4. Time to get coding! Go back to Scratch and click on the Scratch Cat in the sprite list. The cat is now the current sprite.
- Go to the **Events** category in the **code blocks palette** and choose the `“when [flag symbol] clicked”` event, then drag it onto the **current sprite panel**.
- Then go to **Looks** in the **code blocks palette** and choose the `“say [Hello!] for [2] secs”` block and drag it onto the **current sprite panel**, connecting it to the end of the other block, like this: ![](assets/setup3.png)
-
- Now click the **Start Program** button and watch what happens!
 
