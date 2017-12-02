@@ -1,4 +1,4 @@
-#Summary
+# Spis treści
 
 * [Getting Setup](README.md)
 * [Adding & removing code](Beginner Scratch 2.md)
@@ -7,4 +7,6 @@
 * [All the sprites](Beginner Scratch 5.md)
 * [Remote control fish](Beginner Scratch 6.md)
 * [Fishing!](Beginner Scratch 7.md)
+
+
 
