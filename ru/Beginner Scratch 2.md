@@ -1,15 +1,15 @@
 
-1. Great! You’ve written your first Scratch program. Time to learn a little more about gettng code in and out of Scratch! Scratch code is made up of **blocks** that you snap together to make programs. ![])(assets/code1.png)
+1. Великолепно! Ты написал(а) свою первую программку в Scratch. Пора еще кое что узнать о том что можно делать с кодами в Scratch! Scratch код специально создан из **блоков**, чтобы тебе было просто их соединять в свою программу. ![](assets/code1.png)
 
- These blocks come from the **Code Blocks Pallet** where they are broken up into different categories. By clicking on the category names, you can see the blocks in that category. Here, the **motion** category is selected. ![](assets/code2a.png)
+  Блоки собраны в **Code Blocks Palette/ Палитре блоков кодов** по разным категориям. Кликая на название категории, ты можешь увидеть какие блоки она содержит. Здесь, выбрана категория **motions/движения**. ![](assets/code2a.png)
 
- All of the blocks in the selected category are shown in a list. You can pick the one you want, click on it and hold down the mouse button, then just drag it onto the **current sprite panel** and let go. ![](assets/code2b.png)
+   Все блоки в выбранной категории показаны списком. Ты можешь выбрать тот блок, который тебе нужен, захватить мышкой и просто перетащить на **Current Sprite Panel/Панель Выбранного Объекта** и отпустить. ![](assets/code2b.png)
 
-2. Once the block is in the **current sprite pane** you can move it around and snap it to other blocks. If you want to see what a block does, you can double-click on it and it will run!
+2. Как только блок оказывается на **Current Sprite Panel/Панель Выбранного Объекта** ты можешь его перемещать как угодно, присоединять к другим блокам. Если ты хочешь посмотреть, что этот блок делает то кликни дважды по нему и ты его запустишь!
 
- Normally, you want your blocks to run automatically, when something happens. This is why most of your programs will start with a block from the **events** category. Most often, it will be this one: ![](assets/code3.png)
+   Обычно, хочется, чтобы блоки запускались автоматически, когда что-то происходит (например, после щечка мышью кот Scratch начинает шагать). Поэтому большинство твоих программ будет начинаться с блоков из категории **событие/events**. Чаще всего будет использоваться вот этот: ![](assets/code3.png)
 
- * The code blocks connected to this block will run after the **green flag** is clicked
+ * Блоки кодов связанные с этим блоком запустятся после того, как нажмешь на **зеленый флажок**.
 
 
 3. Code blocks run from top to bottom, so the order you snap your code together in matters.
@@ -23,17 +23,16 @@ In this example, the sprite will **say** “Hello!” before it will **play** th
 
 5. Now you know how to move code around and make things happen, time to try a simple program: Making the Scratch Cat walk in a circle!
 
- Make sure you have the cat selected in the sprite list and then drag these blocks together. You’ll find them in **events** and **motion**. ![](assets/code7.png)
+   Убедись, что Кот Scratch выбран в Sprite List/Списке Объектов и начинай перетаскивать блоки друг к другу. Ты найдешь их в **Events/События** и в **Motions/Движения**. ![](assets/code7.png)
 
- Then, click on the green flag above the **stage**. If you click too many times and the cat walks away, you can drag it back! ![](assets/code8.png)
+  Потом кликни на иконку зеленого флажка над **Сценой/Stage**. Если ты кликнул(а) несколько раз и кот ушел, его можно вернуть обратно на сцену. ![](assets/code8.png)
 
- That’s a cat walking in a straight line... not exactly what you want. Snap this block to the end to make it walk in a circle. It’s in **motion** too. ![](assets/code9.png)
+  Этот кот ходит по прямой...не то что мы хотим. Перемести этот блок в конец, чтобы кот пошел по кругу. Он тоже в **Motions/Движениях**. ![](assets/code9.png)
 
- * This block makes the cat turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing a new value.
+ * А этот блок заставляет кота поворачиваться на 15 градусов от полных 360, которые составляют полный круг. Ты можешь изменить эту цифру, можешь изменить количество шагов, кликая на окошко и вводя свои цифры.
 
+6. Ну, все! Пора сохранить свою работу! Заходи в меню `**file**` и нажимай `**save**`/сохранить. ![](assets/code10.png)
 
-6. Now save your work! You do this by going to the `**file**` menu and clicking `**save**`. ![](assets/code10.png)
+   Не забывай регулярно сохраняться!
 
- Remember to save regularly as you work!
-
- You can also use `**save as**` to save a copy of your program with a new name.
+   Ты можешь также использовать `**save as**` чтобы сохранить копию своей программы с другим именем файла. 
