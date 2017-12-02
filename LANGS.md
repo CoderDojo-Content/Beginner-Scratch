@@ -8,3 +8,4 @@
 * [Español](es/)
 * [русский](ru/)
 * [日本語](ja/)
+* [Sovenčina](sk/)
