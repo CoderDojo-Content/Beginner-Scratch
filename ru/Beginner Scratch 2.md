@@ -11,17 +11,17 @@
 
  * Блоки кодов связанные с этим блоком запустятся после того, как нажмешь на **зеленый флажок**.
 
+3. Коды блоков запускаются сверху вниз, так что имеет значение в каком порядке ты их составляешь.
 
-3. Code blocks run from top to bottom, so the order you snap your code together in matters.
-In this example, the sprite will **say** “Hello!” before it will **play** the *meow* sound. ![](assets/code4.png)
+   В этом примере, объект/sprite **скажет** ”Hello!” перед тем как проиграет звук «мяу». ![](assets/code4.png)
 
-4. Removing, or deleting, code blocks you don’t want in your program is easy! You just have to click on the **scissors** icon and then click on the code you want to remove. ![](assets/code5.png)
+4. даление блоков, которые не нужны в твоей программе, тоже просто! Просто нажми на иконку **Ножницы/Scissors**, а потом кликни на код, который хочешь убрать. ![](assets/code5.png)
 
- Be careful though! **You will delete all the blocks connected to the one you click on**.
+   Внимательно и осторожно! **Ты удалишь все блоки, которые Соединенны!**
  
- If you do this by accident and want to get your code back, you can use the `**edit**` menu and click on `**undelete**`. Try adding, deleting, and undeleting some code blocks now! ![](assets/code6.png)
+   Если случайно это все же произошло, и ты хочешь вернуть цепочку своих кодов, то можешь зайти в меню `**Правка/Edit**` и выбрать там `**Восстановить/Undelete**`. Теперь пробуй добавлять, удалять и восстанавливать блоки кодов! ![](assets/code6.png)
 
-5. Now you know how to move code around and make things happen, time to try a simple program: Making the Scratch Cat walk in a circle!
+5. Теперь ты знаешь как перемещать коды и создавать события, так что пора попробовать написать простую программку: Заставим Кота Scratch ходить по кругу!
 
    Убедись, что Кот Scratch выбран в Sprite List/Списке Объектов и начинай перетаскивать блоки друг к другу. Ты найдешь их в **Events/События** и в **Motions/Движения**. ![](assets/code7.png)
 
