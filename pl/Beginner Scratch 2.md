@@ -1,39 +1,35 @@
+1. Brawo! Właśnie powstał Twój pierwszy program w Scratchu. Czas dowiedzieć się nieco więcej o dodawaniu i usuwaniu kodu w Scratchu! 
 
-1. Great! You’ve written your first Scratch program. Time to learn a little more about gettng code in and out of Scratch! Scratch code is made up of **blocks** that you snap together to make programs. ![])(assets/code1.png)
+   Kod w Scratchu tworzy się z **bloków**, które łączy się ze sobą w programy. ![])(assets/code1.png)
 
- These blocks come from the **Code Blocks Pallet** where they are broken up into different categories. By clicking on the category names, you can see the blocks in that category. Here, the **motion** category is selected. ![](assets/code2a.png)
+   Te bloki znajdują się w zakładce **Skrypty**, w której podzielone są na kategorie. Aby wyświetlić bloki w konkretnej kategorri należy kliknąć na jej nazwę. Poniżej wybrana została kategoria **Ruch**. ![](assets/code2a.png)
+   
+   Wszystkie bloki w wybranej kategorii wyświetlane są w formie listy. Wybierz ten, którego potrzebujesz klikając na jego nazwie, następnie przytrzymując lewy klawisz myszy przeciągnij do obszar roboczego bieżącego duszka i zostaw go tam. ![](assets/code2b.png)
+   
+2. Gdy blok jest w **obszarze roboczym duszka** możesz go przesuwać oraz doczepiać do innych bloków. Jeśli chcesz sprawdzić co robi wybrany blok, podwójnie w niego kliknij, żeby go uruchomić!
 
- All of the blocks in the selected category are shown in a list. You can pick the one you want, click on it and hold down the mouse button, then just drag it onto the **current sprite panel** and let go. ![](assets/code2b.png)
+   Na ogół chcemy, aby bloki były uruchamiane automatycznie, gdy coś się stanie. Dlatego większość Twoich programów będzie się rozpoczynać od bloku z kategorii **Zdarzenia**. Najczęściej będzie to ten: ![](assets/code3.png)
 
-2. Once the block is in the **current sprite pane** you can move it around and snap it to other blocks. If you want to see what a block does, you can double-click on it and it will run!
+3. Bloki kodu uruchamiane są od góry do dołu, więc kolejność w jakiej je połączysz ma znaczenie.
 
- Normally, you want your blocks to run automatically, when something happens. This is why most of your programs will start with a block from the **events** category. Most often, it will be this one: ![](assets/code3.png)
+   W poniższym przykładzie duszek powie: _Hello!_ przed tym jak zagra dźwięk _meow_ ![](assets/code4.png)
 
- * The code blocks connected to this block will run after the **green flag** is clicked
+4. Usuwanie niepotrzebnych bloków też jest łatwe! Wystarczy kliknąć ikonę **nożyczek**,  a następnie wybrać element kodu do usunięcia. ![](assets/code5.png)
 
-
-3. Code blocks run from top to bottom, so the order you snap your code together in matters.
-In this example, the sprite will **say** “Hello!” before it will **play** the *meow* sound. ![](assets/code4.png)
-
-4. Removing, or deleting, code blocks you don’t want in your program is easy! You just have to click on the **scissors** icon and then click on the code you want to remove. ![](assets/code5.png)
-
- Be careful though! **You will delete all the blocks connected to the one you click on**.
+   **Uwaga!** _Klikając na blok, do którego podłączone są inne bloki, usuniesz je wszystkie!_
  
- If you do this by accident and want to get your code back, you can use the `**edit**` menu and click on `**undelete**`. Try adding, deleting, and undeleting some code blocks now! ![](assets/code6.png)
+   Jeśli przez pomyłkę usuniesz zbyt wiele i chcesz odzyskać utracony kod, rozwiń menu **Edytuj** z górnego paska, a następnie z rozwiniętej listy wybierz **Przywróć**. Poćwicz sobie teraz dodawanie, usuwanie i przywracanie kodu! ![](assets/code6.png)
 
-5. Now you know how to move code around and make things happen, time to try a simple program: Making the Scratch Cat walk in a circle!
+5. Gdy już wiesz jak posługiwać się blokami kodu, czas zbudować prosty program: Kot Scratcha chodzi w kółko!
 
- Make sure you have the cat selected in the sprite list and then drag these blocks together. You’ll find them in **events** and **motion**. ![](assets/code7.png)
+   Na liście duszków wybierz kota, a następnie wstaw w jego obszarze roboczym następujące bloki (znajdziesz je w zakładce **Skrypty** pod kategoriami **Zdarzenia** oraz **Ruch**). ![](assets/code7.png)
 
- Then, click on the green flag above the **stage**. If you click too many times and the cat walks away, you can drag it back! ![](assets/code8.png)
+   Następnie kliknij na zieloną flagę umieszczoną nad **sceną**.  Jeśli po kilku kliknięciach kot odejdzie za daleko, możesz go przeciągnąć bliżej myszą.  ![](assets/code8.png)
 
- That’s a cat walking in a straight line... not exactly what you want. Snap this block to the end to make it walk in a circle. It’s in **motion** too. ![](assets/code9.png)
+   Na razie kot chodzi po prostej, a to nie do końca jest tym co mieliśmy zrobić! Dołącz ten blok kodu na końcu swojego programu (jego również znajdziesz w kategorii **Ruch**). ![](assets/code9.png)
 
- * This block makes the cat turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing a new value.
+   Ten blok obraca kota o 15 z 360° (które normalnie tworzą pełny obrót). Możesz zmodyfikować tę wartość,  jak również ilość kroków przez podwójne kliknięcie w liczby na odpowiednich blokach kodu i wpisanie z klawiatury nowych wartości.
 
+6. Teraz warto zapisać Twoje dzieło! Z górnego menu, wybierz **Plik**, a następnie **Zapisz teraz**. ![](assets/code10.png)
 
-6. Now save your work! You do this by going to the `**file**` menu and clicking `**save**`. ![](assets/code10.png)
-
- Remember to save regularly as you work!
-
- You can also use `**save as**` to save a copy of your program with a new name.
+   Pamiętaj, aby często zapisywać swoją pracę!

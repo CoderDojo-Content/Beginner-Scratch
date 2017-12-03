@@ -4,7 +4,7 @@ Brawo! Właśnie powstał Twój pierwszy program w Scratchu. Czas dowiedzieć si
 
 Te bloki znajdują się w zakładce **Skrypty**, w której podzielone są na kategorie. Aby wyświetlić bloki w konkretnej kategorri należy kliknąć na jej nazwę. Poniżej wybrana została kategoria **Ruch**.
 
-![](/pt/assets/categories_and_code.png)
+![](/pl/assets/categories_and_code.png)
 
 Wszystkie bloki w wybranej kategorii wyświetlane są w formie listy. Wybierz ten, który chcesz klikając na jego nazwie i przytrzymując lewy klawisz myszy przeciągnij nad obszar bieżącego duszka i upuść go tam.
 
