@@ -1,6 +1,6 @@
 1. Brawo! Właśnie powstał Twój pierwszy program w Scratchu. Czas dowiedzieć się nieco więcej o dodawaniu i usuwaniu kodu w Scratchu! 
 
-   Kod w Scratchu tworzy się z **bloków**, które łączy się ze sobą w programy. ![])(assets/code1.png)
+   Kod w Scratchu tworzy się z **bloków**, które łączy się ze sobą w programy. ![](assets/code1.png)
 
    Te bloki znajdują się w zakładce **Skrypty**, w której podzielone są na kategorie. Aby wyświetlić bloki w konkretnej kategorri należy kliknąć na jej nazwę. Poniżej wybrana została kategoria **Ruch**. ![](assets/code2a.png)
    
