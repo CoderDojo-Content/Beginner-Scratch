@@ -12,16 +12,16 @@
      To tu widać efekty działania Twojego programu. Scena zbudowana jest z: 
      * co najmniej jednego **tła** \(obrazków będących tłem na ekranie\)
      * **bloków kodu**, które np. mogą tę scenę zmieniać \(omówimy to w dalszej części\)
+
    * **Duszki**
      Każdy obiekt występujący na scenie jest duszkiem, który może mieć następujące cechy:
      * **obrazek**
+       ![](/pl/assets/setup2.png) 
      * dodatkowe **kostiumy** \(wygląd\)
      * **dźwięki** przypisane do duszka
      * **bloki kodu** 
-       **Bieżącym duszkiem** jest ten, który jest zaznaczony na **liście duszków**.
+     **Bieżącym duszkiem** jest ten, który jest zaznaczony na **liście duszków**.
 
-     | sdsdsd | ![](/nl/assets/setup2.png) |
-     | :--- | :--- |
    * **Bloki kodu**  
      Kod w Scratchu tworzą bloki, które łączy się,  tak aby zbudować z nich program. Bloki wybiera się z zakładki **Skrypty** i przeciąga na **obszar roboczy** bieżącego duszka łącząc z innymi blokami.
 
