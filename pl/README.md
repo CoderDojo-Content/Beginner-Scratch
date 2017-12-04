@@ -4,13 +4,7 @@
 
 2. Wersji przeglądarkowa będzie wymagać rejestracji, a desktopowa instalacji. Kiedy wykonasz te kroki, pokaże Ci się obszar roboczy.  
    Obszar ten jest podzielony na kilka istotnych częśći, których nazwy warto zapamiętać. Są one oznaczone na poniższym obrazku  
-   ![](assets/setup1.png)  
-   1. Scena  
-   2. Uruchom Progam  
-   3. Zatrzymaj Program  
-   4. Obszar roboczy duszka  
-   5. Lista duszków  
-   6. Zakładka **Skrypty**
+   ![](assets/setup1.png)
 
 3. Kilka dodatkowych informacji nt. elementów okna:
 
@@ -21,11 +15,13 @@
    * **Duszki**
      Każdy obiekt występujący na scenie jest duszkiem, który może mieć następujące cechy:
      * **obrazek**
-       ![](assets/setup2.png)
      * dodatkowe **kostiumy** \(wygląd\)
      * **dźwięki** przypisane do duszka
      * **bloki kodu** 
        **Bieżącym duszkiem** jest ten, który jest zaznaczony na **liście duszków**.
+
+     | sdsdsd | ![](/nl/assets/setup2.png) |
+     | :--- | :--- |
    * **Bloki kodu**  
      Kod w Scratchu tworzą bloki, które łączy się,  tak aby zbudować z nich program. Bloki wybiera się z zakładki **Skrypty** i przeciąga na **obszar roboczy** bieżącego duszka łącząc z innymi blokami.
 
