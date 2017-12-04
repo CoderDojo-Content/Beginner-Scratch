@@ -1,17 +1,15 @@
-## Zacznij kodować!
+## Start coding!
 
-Najwyższy czas zacząć kodować!
+Time to get coding!
 
-* Otwórz okno ze Scratchem i z **listy duszków** wybierz Kota Scratcha. Tego kota będziemy od teraz nazywać Twoim wybranym lub bieżącym duszkiem.
-* Wybierz kategorię **Zdarzenia** z zakładki** Skrypty**, a następnie zaznacz i przeciągnij zdarzenie „kiedy kliknięto \[zieloną flagę\]” na **obszar roboczy bieżącego duszka**.
-* Przejdź do  kategorii **Wygląd** znajdującej się w zakładce **Skrypty** i przeciągnij blok “powiedz \[Hello!\] przez \[2\] s” na **obszar roboczy bieżącego duszka** łącząc go z dolną krawędzią znajdującego się tam bloku w następujący sposób:
+* Go back to Scratch and click on the Scratch Cat in the **sprite list**. The cat is now the **current sprite**.
+* Go to the **Events** category in the **code blocks palette** and choose the “when [flag symbol] clicked” event, then drag it onto the **current sprite panel**.
+* Then go to **Looks** in the **code blocks palette** and choose the “say [Hello!] for [2] secs” block and drag it onto the **current sprite panel**, connecting it to the end of the other block, like this: 
 
-```blocks
+    ```blocks
     when green flag clicked
     say [Hello!] for (2) secs
-```
+    ```
 
-* Gdy już połączysz bloki, wciśnij przycisk Uruchom Program \(zielona flaga\) i obserwuj co się stanie!!
-
-
+* Now click the Start Program button and watch what happens!
 

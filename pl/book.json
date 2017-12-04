@@ -1,17 +1,17 @@
 {
-    "direction": "ltr",
-    "language": "pl",
-    "pdf": {
-        "margin": {
-            "bottom": 35,
+    "title":"Scratch dla początkujących",
+    "language":"pl",
+    "variables":{
+        "seriesTitle": "Scratch dla początkujących"
+    },
+    "direction":"ltr",
+    "pdf":{
+        "paperSize":"a4",
+        "margin":{
+            "top": 100,
             "left": 0,
             "right": 0,
-            "top": 100
-        },
-        "paperSize": "a4"
-    },
-    "title": "Beginner Scratch",
-    "variables": {
-        "seriesTitle": "Beginner Scratch"
+            "bottom": 35
+        }
     }
 }

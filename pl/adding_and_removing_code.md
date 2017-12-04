@@ -1,32 +1,28 @@
-## Tworzenie kodu
+## Adding code
 
-Brawo! Właśnie powstał Twój pierwszy program w Scratchu. Czas dowiedzieć się nieco więcej o dodawaniu i usuwaniu kodu w Scratchu! Kod w Scratchu tworzy się z **bloków**, które łączy się ze sobą w programy.
+Great! You’ve written your first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** that you snap together to make programs.
 
-Te bloki znajdują się w zakładce **Skrypty**, w której podzielone są na kategorie. Aby wyświetlić bloki w konkretnej kategorri należy kliknąć na jej nazwę. Poniżej wybrana została kategoria **Ruch**.
+These blocks come from the **Code Blocks Pallet** where they are broken up into different categories. By clicking on the category names, you can see the blocks in that category. Here, the **motion** category is selected.
 
-![](/pl/assets/categories_and_code.png)
+![](/assets/categories_and_code.png)
 
-Wszystkie bloki w wybranej kategorii wyświetlane są w formie listy. Wybierz ten, który chcesz klikając na jego nazwie i przytrzymując lewy klawisz myszy przeciągnij nad obszar bieżącego duszka i upuść go tam.
+All of the blocks in the selected category are shown in a list. You can pick the one you want, click on it and hold down the mouse button, then just drag it onto the **current sprite panel** and let go.
 
-Gdy blok jest w **obszarze roboczym duszka** możesz go przesuwać oraz doczepiać do innych bloków. Jeśli chcesz sprawdzić co robi wybrany blok, podwójnie w niego kliknij, żeby go uruchomić!
+Once the block is in the **current sprite pane** you can move it around and snap it to other blocks. If you want to see what a block does, you can double-click on it and it will run!
 
-Na ogół chcemy, aby bloki były uruchamiane automatycznie, gdy coś się stanie. Dlatego większość Twoich programów będzie się rozpoczynać od bloku z kategorii **Zdarzenia**. Najczęściej będzie to ten:
+Normally, you want your blocks to run automatically, when something happens. This is why most of your programs will start with a block from the **events** category. Most often, it will be this one:
 
-```blocks
-    gdy kliknięto zieloną flagę
-```
+    ```blocks
+    when green flag clicked
+    ```
+The code blocks connected to this block will run after the green flag is clicked
 
-Bloki kodu doczepione do tego bloku zostaną uruchomione, gdy wciśniesz zieloną flagę.
+Code blocks run from top to bottom, so the order you snap your code together in matters.
 
-Bloki kodu uruchamiane są od góry do dołu, więc kolejność w jakiej je połączysz ma znaczenie.
-
-W poniższym przykładzie duszek **powie**: „Hello!” przed tym jak zagra dźwięk _meow_.
-
-```blocks
-    gdy kliknięto zieloną flagę
-    powiedz [Hello!]
-    zagraj dźwięk [meow]
-```
-
-
-
+In this example, the sprite will **say** “Hello!” before it will **play** the _meow_ sound.
+    
+    ```blocks
+    when green flag clicked
+    say [Hello!]
+    play sound [meow]
+    ```

@@ -1,33 +1,29 @@
-1. Twój kot już się rusza, ale czy nie ciekwiej byłoby go kontrolować przy pomocy strzałek? Dzięki tej karcie dowiesz się jak to zrobić w Scratchu!
 
-   Jak łatwo zgadnąć, znowu będą potrzebne bloki kodu z kategorii **Zdarzenia** oraz **Ruch**! Poszukaj takiego bloku: ![](assets/moving1.png)
+1. Now your scratch cat moves, but wouldn’t it be more fun to control it with the arrow keys? On this card, you’re going learn how to do that!
 
-   Gdy klikniesz niewielką strzałkę (▼) obok napisu „spacja” rozwinie Ci się lista wszystkich klawiszy jakich możesz użyć. Będziesz potrzebować 4 takich bloków, do których podłączysz klawisze z kategorii **Ruch** w taki sposób: ![](assets/moving2.png)
+ As you’ve probably guessed, you’re going to need **event** and **motion** blocks again! This time, you’re looking for this block: ![](assets/moving1.png)
 
- * do obsługi strzałek, będą Ci potrzebne 4 bloki zdarzeń po jednym dla:
-     * „strzałka w górę”
-     * „strzałka w prawo”
-     * „strzałka w dół”
-     * „strzałka w lewo”
- * -10 oznacza: **idź 10 kroków w tył**
+ If you click the little arrow (▼) beside “space” you’ll get a list of all the keys on your keyboard to pick from. You’re going to need four of these blocks and you can connect them to **motion** blocks like this: ![](assets/moving2.png)
 
-2. Twój kot już potrafi chodzić w przód i w tył, co jest już całkiem fajne, ale nie umie się jeszcze poruszać do dołu, ani do góry. Ponadto, gdy przyjżysz się blokom w kategorii **Ruch**, nie zobaczysz tam bloków dla „góry”, ani „dołu”. Jest tam za to sporo bloków odnoszących się do **x** i **y**…
+ * The four blocks you'll need are for "left arrow", "right arrow", "up arrow" and "down arrow"
+ * -10 means: **go back 10 steps**
 
-   Gdy programiści umieszczają jakieś obiekty w przestrzeni, np. duszki na scenie, często do podania pozycji posługują się współrzędnymi **x** i **y**.  
 
-   **Oś x** przebiega od lewej do prawej, a **oś y** od dołu do góry. ![](assets/moving3.png)
+2. Your cat moves back and forwards now, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **motion** blocks, you’ll see there are no blocks for “up” or “down”. There are a whole bunch of them related to **x** and **y** though...
 
-   Duszek może być ustawiony na scenie przez podanie współrzędnych jego środka, pisząc np. (15, -27) wskazujemy, że 15 jest pozycją **x**, a -27 pozycją **y**.
+ When programmers need to talk about the positions of objects, like sprites, we often use **x** and **y** coordinates to describe them. The **x-axis** runs from left to right, while the **y-axis** runs from bottom to top. ![](assets/moving3.png)
 
-   Żeby lepiej zrozumieć jak to działa, przeciągnij blok **idź do** z kategorii **Ruch** na **obszar roboczy** (nie musisz go z niczym łączyć). ![](assets/moving4.png)
+ A sprite can be located by the coordinates of its centre, written something like (15, -27) where 15 is the **x** position and -27 is the **y** position.
 
-   Następnie, zmień wartości **x** oraz **y** i _podwójnie kliknij ten blok_.  Popróbuj z różnymi wartociami i obserwuj dokąd „przechodzi” kot!
-   Wartości dostępne dla **x** są w przedziale od -240 do 240, a dla  **y** w przedziale od -180 do 180.
+ To get a feel for how this actually works, take the `**go to**` block from motion and drop it onto your **sprite panel**. You don’t need to connect it to anything. ![](assets/moving4.png)
 
-3. Teraz, gdy wiesz jak korzystać ze współrzędnych **x** i **y** możesz poruszać kotem w górę i w dół. Wystarczy tylko zmieniać wartość współrzędnej **y**. Dodaj do swojego kodu takie bloki: ![](assets/moving5.png)
+ Next, pick some values for **x** and **y**, fill them in, and _double click on the block_. Try different sets of values to see where the cat goes! In Scratch **x** goes from -240 to 240 and **y** goes from -180 to 180.
 
-   Po naciśnięciu strzałek, kot powinen się teraz poruszać we wszystkich 4 kierunkach!
 
-4. Twój kot porusza się po całym ekranie, ale wyobraź sobie, że to gra — jak ją zrestartować? Gdy gracz rozpoczyna grę, należy przestawić kota do jego startowej pozycji. W Scratchu grę rozpoczyna się przez wciśnięcie zielonej flagi, więc gdy to nastąpi musisz zmienić współrzędne **x** i **y* swojego kota.
+3. Now you know about **x** and **y** coordinates, you can make the cat move up and down! You just need to change its **y** value. You can update your code like this: ![](assets/moving5.png)
 
-   Jest to całkiem proste do zrobienia! Środek sceny ma współrzędne (0,0), tak więc wszystko co trzeba zrobić, to dodać z kategorii **Zdarzenia** blok, który jest uruchamiany po wciśnięciu zielonej flagi oraz blok **idź do**, który już masz w obszarze roboczym. Ustaw **idź do** na (0,0) i dołącz go do bloku zdarzeniowego. ![](assets/moving6.png)
+ Now when the arrows are pressed, the cat can move all over the stage!
+
+4. The cat moves all over the screen, but imagine this is a game: How do you restart it? You need to get the cat back to its original location when the player starts the game. In Scratch, they start the game by clicking on the green flag, so you need to change the cat’s **x** and **y** coordinates when that happens.
+
+ That’s actually pretty easy! The centre of the stage is (0,0) in **x** and **y** coordinates. So all you need is an **event** block for that green flag and the **go to** block you’re already using. Set the `**go to**` to (0,0) and then snap it to the flag event block. ![](assets/moving6.png)
