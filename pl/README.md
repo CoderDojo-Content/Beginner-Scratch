@@ -16,7 +16,7 @@
    * **Duszki**
      Każdy obiekt występujący na scenie jest duszkiem, który może mieć następujące cechy:
      * **obrazek**
-       ![](/pl/assets/setup2.png) 
+       ![](assets/setup2.png) 
      * dodatkowe **kostiumy** \(wygląd\)
      * **dźwięki** przypisane do duszka
      * **bloki kodu** 
