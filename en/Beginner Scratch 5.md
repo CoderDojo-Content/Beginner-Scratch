@@ -15,8 +15,8 @@
 
  * измени  -10 на 10, и акула плывет вперед
  
-3. If you tried moving the shark around after you added the `“point in direction”` blocks, you might have noticed something a little strange happening. The shark may not be turning quite right! ![](assets/sprites4.png)
+3. Если ты пробовал передвигать акулу используя блок `"point in direction"` / направление, ты, наверное, заметил, что что-то не так. Акула-то поворачивает, но не совсем правильно! ![](assets/sprites4.png)
 
- The problem here is that the shark sprite started, as all sprites do, with the `“all around”` **rotation style**, and what you need it to have is the **left-right** style.
+   Проблема в том, что у sprite акулы, как и у всех sprites,   изначально опция ` around”` (везде вокруг) **rotation style** (стиль вращения), но тебе то нужен стиль **left-right** слева-направо.
 
  As usual, there’s a block for that and it’s in **motion**! You just need to update your reset code from Card 3 to set the rotation style to "left-right", like this: ![](assets/sprites5.png)
