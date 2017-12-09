@@ -1,12 +1,11 @@
 
 1. Теперь у тебя есть акула, чтобы рассекать в воде. Класс! Пора ей добавить рыбок для ловли!
 
- Click the **new sprite** button and then choose a fish from the screen that opens. ![](assets/sprites1.png)
+   Кликни на кнопку **new sprite** / новый персонаж(объект) и затем выбери рыбку из открывающегося окна. ![](assets/sprites1.png)
 
- That fish is a bit big compared to your shark though. Use **grow** and **shrink** to make it the right size. ![](assets/sprites2.png)
+   А рыбка-то большевата для твоей акулы. Используй **grow** (увеличивать, растить) и **shrink** (уменьшать, усаживаться(как вы стирке)), чтобы сделать рыбку подходящего размера. ![](assets/sprites2.png)
 
- Click on **grow** or **shrink** and then click on the fish to make it get bigger or smaller.
-
+   Щелкай на **grow** или **shrink**, а затем кликай на рыбу, чтобы увеличивать или уменьшать ее.
 
 2. Nice! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will be the shark, trying to catch the fish.
 
