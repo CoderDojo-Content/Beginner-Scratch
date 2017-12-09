@@ -18,10 +18,10 @@
 5. Так уже лучше, но до сих пор движения слишком шаблонные. Нужно добавить случайных. Удачно, в Scratch есть и такое для тебя! Тебе нужен новый вид блоков, называющихся **operator** / Операторский блок.
 
    **Операторы** собирают одно или более значений values (цифры numbers, текст text, верно true или false неверно) во едино — в одно значение. Ты можешь задать вид значений и получить обратно в виде фигурных прямоугольных блоков: закругленные концы для чисел и текста, заостренные для значений  true(правильно) или  false (неверно).![](assets/fish6.png)
+   
+   Тебе нужен `”pick random”` (случайный выбор) из **operator** операторского блока. Нужно вставить его во внутрь `”turn degrees”` градусы поворота из **motions** / движения блока. Для этого нужно кликнуть и перетащить `”pick random”` в поле, где устанавливаются градусы разворота. Ты можешь изменить числовой минимум (minimum) и максимум (maximum), но и значения по умолчанию (default values) – от 1 до 10 вполне подходят для твоей игры, можно оставить их без изменений. 
 
- You need the `"pick random"` **operator** block, and you need to plug it into the `“turn degrees”` **motion** block by clicking and dragging it into the field where you set the number of degrees. You can change the minimum and maximum numbers it will pick, but the default values (1 and 10) are pretty good for this game, so you can just leave them.
-
- Update the fish code to this and then run it by clicking the green flag: ![](assets/fish7.png)
+  **Update** (улучшить, обновить, апдейтить) код рыбки и посмотри, что получилось, кликнув на зеленый флажок: ![](assets/fish7.png)
  
  **Next: Catching that fish!**
 
