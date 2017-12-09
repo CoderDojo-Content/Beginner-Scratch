@@ -7,11 +7,11 @@
 
    Щелкай на **grow** или **shrink**, а затем кликай на рыбу, чтобы увеличивать или уменьшать ее.
 
-2. Nice! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will be the shark, trying to catch the fish.
+2. Отлично! Позднее ты можешь дописать код, чтобы рыбка плавала сама по себе без помощи игрока. А твоим игроком будет акула, пытающаяся поймать себе обед.
 
- However, it does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming that way. Luckily for you, Scratch has a block for this!
+   Так или иначе, но то что акула плавает задом на перед, выглядит странновато. Точно так же как ты, обычно разворачиваешься, чтобы пойти назад, акула должна развернуться и тогда плыть в другом направлении. Ага! Большая удача — у Scratch есть блок кодов для этого!
 
- The `**point in direction**` block lets you pick the direction your sprite is pointing in. You can type in any number, but it comes with the four you'll need most already in there: **up**, **down**, **left** and **right**. You’ll find it in the **motion** blocks section. Grab it and snap a couple of them into your shark’s code, like this: ![](assets/sprites3.png)
+   Выбираем направление для твоего персонажа\sprite в направление\ **point in direction** блоке кодов. Ты можешь вводить любые значения, главные 4, которые тебе будут необходимы уже здесь: **up** / вверх, **down** / вниз, **left** / лево и **right** / право. Ты найдешь их в секции блоков motions\ движения. Хватай парочку их и тащи в код своей акулы, вот так: ![](assets/sprites3.png)
 
  * Change the -10 to 10, the shark is just swimming forward now
 
