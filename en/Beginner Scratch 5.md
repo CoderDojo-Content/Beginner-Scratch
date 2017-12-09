@@ -1,5 +1,5 @@
 
-1. Now you have a shark that moves about underwater. Nice! Time to add some fish for it to catch!
+1. Теперь у тебя есть акула, чтобы рассекать в воде. Класс! Пора ей добавить рыбок для ловли!
 
  Click the **new sprite** button and then choose a fish from the screen that opens. ![](assets/sprites1.png)
 
