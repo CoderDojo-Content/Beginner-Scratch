@@ -1,18 +1,20 @@
 
-1. So your cat moves up and down, as well as left to right. You should probably put it somewhere sensible for that... like under water! Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
- * Select the stage
- * Click on **Backdrops** ![](assets/cool1a.png)
- * Click the icon to "Choose backdrop from library" ![](assets/cool1b.png)
- Then pick your favourite underwater background!
+1. Итак, твой кот двигается в верх и вниз, а также с лева на право. Хорошо бы было поместить его в подходящую обстановку, например... под водой! В Scratch есть библиотека backgrounds (фонов) и sprites(персонажей), чтобы ты мог сделать свой проект по настоящему крутым.
+ * Выбери stage (сцену)
+ * Кликни на меню **Backdrops**(декорации, задник сцены) ![](assets/cool1a.png)
+ * Кликни сюда ![](assets/cool1b.png)
+И выбери понравившийся тебе background подводного мира!
 
-2. Great! Of course, now you have a cat underwater. Cats aren’t usually big fans of that, but you can fix that. You can turn the cat into a shark!
+2. Здорово! Теперь кот в подводном мире. Но кошки, на самом деле, отнюдь не фанаты воды, и ты можешь это изменить. Давай-ка трансформируем кота в акулу!
 
- First, select the cat and click on the **Costumes** tab ![](assets/cool2.png)
+   Сначала выбери кота и кликни на вкладку **Costumes** / Костюмы ![](assets/cool2.png)
 
-3. Then, click on **Choose Costume from Library** ![](assets/cool3.png)
+3. Потом, щелкни на **Choose Costume from Library** / Выбрать Костюм из Библиотеки ![](assets/cool3.png)
 
-4. Pick this shark ![](assets/cool4.png)
+4. Выбери эту акулу ![](assets/cool4.png)
 
-5. Now remove the cat costumes by selecting each of them and clicking on the **x** ![](assets/cool5.png)
+5. Затем удали костюмы, выбирая каждый из них и нажимая на **x** ![](assets/cool5.png)
 
- Now you have a shark!
+   Нажми сюда
+   
+   Теперь у тебя акула!
