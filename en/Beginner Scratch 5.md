@@ -11,11 +11,10 @@
 
    Так или иначе, но то что акула плавает задом на перед, выглядит странновато. Точно так же как ты, обычно разворачиваешься, чтобы пойти назад, акула должна развернуться и тогда плыть в другом направлении. Ага! Большая удача — у Scratch есть блок кодов для этого!
 
-   Выбираем направление для твоего персонажа\sprite в направление\ **point in direction** блоке кодов. Ты можешь вводить любые значения, главные 4, которые тебе будут необходимы уже здесь: **up** / вверх, **down** / вниз, **left** / лево и **right** / право. Ты найдешь их в секции блоков motions\ движения. Хватай парочку их и тащи в код своей акулы, вот так: ![](assets/sprites3.png)
+   Выбираем направление для твоего персонажа\sprite в направление\ `"point in direction"` блоке кодов. Ты можешь вводить любые значения, главные 4, которые тебе будут необходимы уже здесь: **up** / вверх, **down** / вниз, **left** / лево и **right** / право. Ты найдешь их в секции блоков motions\ движения. Хватай парочку их и тащи в код своей акулы, вот так: ![](assets/sprites3.png)
 
- * Change the -10 to 10, the shark is just swimming forward now
-
-
+ * измени  -10 на 10, и акула плывет вперед
+ 
 3. If you tried moving the shark around after you added the `“point in direction”` blocks, you might have noticed something a little strange happening. The shark may not be turning quite right! ![](assets/sprites4.png)
 
  The problem here is that the shark sprite started, as all sprites do, with the `“all around”` **rotation style**, and what you need it to have is the **left-right** style.
