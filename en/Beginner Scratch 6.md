@@ -15,9 +15,9 @@
 
    С 2й Суши-карточкой, ты уже научился, как поворачивать sprite, вот, начинаем отсюда: притащи блок ”turn” (поворот) в коды рыбки и кликни зеленый флаг. ![](assets/fish5.png)
 
-5. It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
+5. Так уже лучше, но до сих пор движения слишком шаблонные. Нужно добавить случайных. Удачно, в Scratch есть и такое для тебя! Тебе нужен новый вид блоков, называющихся **operator** / Операторский блок.
 
- **Operators** take in one or more values (numbers, text, true/false values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give true/false. ![](assets/fish6.png)
+   **Операторы** собирают одно или более значений values (цифры numbers, текст text, верно true или false неверно) во едино — в одно значение. Ты можешь задать вид значений и получить обратно в виде фигурных прямоугольных блоков: закругленные концы для чисел и текста, заостренные для значений  true(правильно) или  false (неверно).![](assets/fish6.png)
 
  You need the `"pick random"` **operator** block, and you need to plug it into the `“turn degrees”` **motion** block by clicking and dragging it into the field where you set the number of degrees. You can change the minimum and maximum numbers it will pick, but the default values (1 and 10) are pretty good for this game, so you can just leave them.
 
