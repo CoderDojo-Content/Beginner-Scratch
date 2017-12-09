@@ -1,10 +1,7 @@
 
-1. Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **control** block. These let you do things a certain number of times, or under certain conditions.
+1. ОК, пора отпустить рыбку плавать самой по себе. Для того чтобы это получилось, тебе нужен новый вид блоков: **control** / контроль. Они тебе позволят задавать количество определенных действий, в определенных условиях.Выбери sprite рыбки, притащи из **event** / события блоков `”when green flag clicked”` -  «когда клик по зеленому флагу» , и `”forever”` (навсегда, бесконечно) из блоков контроля/control, и еще `”move 10 steps”` (переместить на 10 шагов) из блоков **motion** / движения на **sprite panel** / панель объектов, вот так: ![](assets/fish1.png)
 
- Select your fish sprite and drag a `“when green flag clicked”` **event** block, a `“forever”` **control** block and a `“move 10 steps”` **motion** block into the **sprite panel** like this: ![](assets/fish1.png)
-
- The fish does whatever is in the `“forever”` block over and over again, forever. Once it has reached the end it goes back to the top of the block and starts again. Now click the green flag and watch what happens!
-
+  Так, рыбка будет повторять что-то с командой `”forever”` блока бесконечно. Как только будет достигнут конец, она вернется в верх к началу блока и снова начнет повторять. Теперь кликни на зеленый флаг и посмотри, что произойдет!
 
 2. Well, that fish just crashed into the side of the **stage**, and it was moving far too fast for your shark to catch. First, you need to slow it down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps.
 
