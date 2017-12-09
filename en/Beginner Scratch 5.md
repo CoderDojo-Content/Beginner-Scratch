@@ -19,4 +19,4 @@
 
    Проблема в том, что у sprite акулы, как и у всех sprites,   изначально опция ` around”` (везде вокруг) **rotation style** (стиль вращения), но тебе то нужен стиль **left-right** слева-направо.
 
- As usual, there’s a block for that and it’s in **motion**! You just need to update your reset code from Card 3 to set the rotation style to "left-right", like this: ![](assets/sprites5.png)
+   Как обычно, этот блок находится в **motions** / движения! Тебе только нужно обновить твой код с карточки № 3 и установить стиль движения вот так: ![](assets/sprites5.png)
