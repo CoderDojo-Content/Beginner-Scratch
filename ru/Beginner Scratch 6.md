@@ -1,33 +1,29 @@
+1. ОК, пора отпустить рыбку плавать самой по себе. Для того чтобы это получилось, тебе нужен новый вид блоков: **control** / контроль. Они тебе позволят задавать количество определенных действий, в определенных условиях.
+Выбери sprite рыбки, притащи из **event** / события блоков `”when green flag clicked”` - «когда клик по зеленому флагу» , и `”forever”` (навсегда, бесконечно) из блоков контроля/control, и еще `”move 10 steps”` (переместить на 10 шагов) из блоков **motion** / движения на **sprite panel** / панель объектов, вот так:
+ ![](assets/fish1.png)
 
-1. Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **control** block. These let you do things a certain number of times, or under certain conditions.
+   Так, рыбка будет повторять что-то с командой `”forever”` блока бесконечно. Как только будет достигнут конец, она вернется в верх к началу блока и снова начнет повторять. Теперь кликни на зеленый флаг и посмотри, что произойдет!
 
- Select your fish sprite and drag a `“when green flag clicked”` **event** block, a `“forever”` **control** block and a `“move 10 steps”` **motion** block into the **sprite panel** like this: ![](assets/fish1.png)
+2. Итак, эта рыбка бьется о края **stage** / сцены, и двигается слишком быстро, чтобы твоя акула смогла ее поймать. Первое, рыбку надо замедлить. Это, на самом деле, очень просто, нужно, чтобы она подождала, прежде чем продвинулась на следующие 10 шагов.
 
- The fish does whatever is in the `“forever”` block over and over again, forever. Once it has reached the end it goes back to the top of the block and starts again. Now click the green flag and watch what happens!
+   В блоках **control** / контроля бери этот: ![](assets/fish2.png)
 
+   Можешь установить сколько **seconds** / секунд ты хочешь, чтобы рыбка подождала. Сейчас попробуй установить полсекунды (0.5). Теперь ты можешь задавать разные значения задержки, чтобы подобрать подходящие для игры. Помни, что ты можешь поменять значения количества шагов тоже!
+ ![](assets/fish3.png)
 
-2. Well, that fish just crashed into the side of the **stage**, and it was moving far too fast for your shark to catch. First, you need to slow it down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps.
+3. Хорошо, рыбка двигается, но нужно, чтобы она отскакивала от краев. Да, снова, в блоки **motions** / движения за нужным блоком! Это блок `”if touching edge bounce”` / «при соприкосновении с краем отскакивать». Этот блок следит касается ли sprite(за рыбка) края, и если да, то развернет ее налево, вправо, вверх или вниз, как задано. Конечно, это приведет к тому, что рыбка перевернется брюхом вверх, поэтому тебе надо будет установить значения поворотов `”set rotation style”` снова. ![](assets/fish4.png)
 
- There’s a **control** block that can help you here: ![](assets/fish2.png)
+4. Итак, рыбка плавает вперед и назад, но только по прямой. Это будет слишком просто и неинтересно для игрока с акулой. Тебе нужно сделать так, чтобы рыбка двигалась хаотически.
 
- You can set how many **seconds** you want the fish to wait. For now, try half a second (0.5). You can test out different values later, to see which is the best for the game. Remember you can change the number of steps too! ![](assets/fish3.png)
+   С 2й Суши-карточкой, ты уже научился, как поворачивать sprite, вот, начинаем отсюда: притащи блок ”turn” (поворот) в коды рыбки и кликни зеленый флаг.
+ ![](assets/fish5.png)
 
+5. Так уже лучше, но до сих пор движения слишком шаблонные. Нужно добавить случайных. Удачно, в Scratch есть и такое для тебя! Тебе нужен новый вид блоков, называющихся **operator** / Операторский блок.
 
-3. The fish moves now, but you need it to bounce off the edge too. Yet again, there’s a **motion** block for this! It’s the `“if touching edge bounce”` block. It checks if the sprite is touching the edge and, if it is, turns left, right, up or down as appropriate. Of course, this will lead to an upside-down fish, so you need `“set rotation style”` again. ![](assets/fish4.png)
+   **Операторы** собирают одно или более значений values (цифры numbers, текст text, верно true или false неверно) во едино — в одно значение. Ты можешь задать вид значений и получить обратно в виде фигурных прямоугольных блоков: закругленные концы для чисел и текста, заостренные для значений true(правильно) или false (неверно).
+![](assets/fish6.png)
+   Тебе нужен `”pick random”` (случайный выбор) из **operator** операторского блока. Нужно вставить его во внутрь `”turn degrees”` градусы поворота из **motions** / движения блока. Для этого нужно кликнуть и перетащить `”pick random”` в поле, где устанавливаются градусы разворота. Ты можешь изменить числовой минимум (minimum) и максимум (maximum), но и значения по умолчанию (default values) – от 1 до 10 вполне подходят для твоей игры, можно оставить их без изменений.
 
-
-4. The fish moves back and forward now, but only in a straight line. That's going to be a bit too easy for the player to catch with the shark. You need to make the fish swim more unpredictably.
-
- You already know from Card 2 how to make a sprite turn, so start there: Add a turn into the fish’s swimming and click the green flag. ![](assets/fish5.png)
-
-
-5. It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
-
- **Operators** take in one or more values (numbers, text, true/false values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give true/false. ![](assets/fish6.png)
-
- You need the `"pick random"` **operator** block, and you need to plug it into the `“turn degrees”` **motion** block by clicking and dragging it into the field where you set the number of degrees. You can change the minimum and maximum numbers it will pick, but the default values (1 and 10) are pretty good for this game, so you can just leave them.
-
- Update the fish code to this and then run it by clicking the green flag: ![](assets/fish7.png)
- 
- **Next: Catching that fish!**
-
+   **Update** (улучшить, обновить, апдейтить) код рыбки и посмотри, что получилось, кликнув на зеленый флажок: ![](assets/fish7.png)
+   
+**Next: Catching that fish!**
