@@ -1,4 +1,4 @@
-#Summary
+# Summary
 
 * [Getting Setup](README.md)
 * [Adding & removing code](Beginner Scratch 2.md)
