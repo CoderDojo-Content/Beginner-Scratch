@@ -1,29 +1,28 @@
+1. Так, теперь твой скратч кот двигается, но разве не было бы прикольней контролировать его стрелками передвижения? С помощью этой карточки ты научишься и этому!
 
-1. Now your scratch cat moves, but wouldn’t it be more fun to control it with the arrow keys? On this card, you’re going learn how to do that!
+   Как ты, можешь предположить, тебе снова потребуются блоки из **Events/События** и **Motions/Движения**. В этот раз тебе нужно найти этот блок: ![](assets/moving1.png)
 
- As you’ve probably guessed, you’re going to need **event** and **motion** blocks again! This time, you’re looking for this block: ![](assets/moving1.png)
+   Если ты нажмешь на маленькую стрелочку \(▼\) слева от ”space”(пробел, промежуток, пространство), ты увидишь все клавиши своей клавиатуры, чтобы выбрать из них подходящие. Тебе нужны вот эти 4 блока и ты можешь присоединить их к блокам **Motions/Движения** вот так: ![](assets/moving2.png)
 
- If you click the little arrow (▼) beside “space” you’ll get a list of all the keys on your keyboard to pick from. You’re going to need four of these blocks and you can connect them to **motion** blocks like this: ![](assets/moving2.png)
+   * The four blocks you'll need are for "left arrow", "right arrow", "up arrow" and "down arrow"
+   * -10 означаетсделать: **10 шагов назад**
 
- * The four blocks you'll need are for "left arrow", "right arrow", "up arrow" and "down arrow"
- * -10 means: **go back 10 steps**
+1. Твой кот двигается вперед и назад — это круто! Но еще не вверх и вниз. Да, когда ты просмотришь все блоки в **Motions/Движения**, то не найдешь блоков ”up” \(вверх\) или ”down” \(вниз\). Это потому, что все они связаны с **х** \(горизонталью\) и **у** \(вертикалью\) по оси координат...
+
+   Когда программистам нужно указать позицию объекта, как sprite, мы часто используем координаты **х** и **у**, чтобы указать местоположение объекта. **X-ось** идет с лева на право, а **у-ось** с верху в низ. ![](assets/moving3.png)
+
+   Положение sprite  отсчитывается от его центра, и запись как \(15, -27\), где 15  - это **х**, т. е. по горизонтали, а -27 это **у**, т. е. по вертикали.
+
+   Чтобы наглядно увидеть, как это работает, возьмем блок `**go to**` \(двигаться в направлении\) из  **Motions/Движения** и положим на **Current Sprite Panel/Панель Выбранного Объекта**. Его не надо присоединять к другим блокам.
+
+   Следующее: выбери любые значения **х** и **у**, вбей их, и дважды кликни по блоку. Попробуй задавать разные значения и смотри куда кот передвинется! В Scratch значения по **х** могут быть от -240 до 240, а по **у** от -180 до 180.
+
+1. Теперь ты знаешь о координатах **х** и **у**, и можешь перемещать кота вверх и вниз! Тебе просто нужно менять значения **у**. Ты можешь улучшить свой код вот так: ![](assets/moving5.png)
+
+   Ура! Теперь, когда ты нажимаешь клавиши со стрелками, кот передвигается по сцене!
+
+2. Кот перемещается везде по экрану, но представь себе, что это все игра: Как ее перезапустить? Тебе нужно, чтобы кот оказался на месте старта, откуда и начинается игра. В Scratch старт игры начинается по щелчку на зеленый флаг, значит тебе надо изменить **х** и **у** координаты кота, когда это случается.
+
+   На самом деле, это очень просто! Центр сцены это \(0, 0\) **х** и **у** по оси координат. Все что тебе понадобится это из  **Events/События** блок с зеленым флагом и **go to** блок, который ты уже используешь. Установи значения `**go to**` на ![](assets/moving6.png)
 
 
-2. Your cat moves back and forwards now, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **motion** blocks, you’ll see there are no blocks for “up” or “down”. There are a whole bunch of them related to **x** and **y** though...
-
- When programmers need to talk about the positions of objects, like sprites, we often use **x** and **y** coordinates to describe them. The **x-axis** runs from left to right, while the **y-axis** runs from bottom to top. ![](assets/moving3.png)
-
- A sprite can be located by the coordinates of its centre, written something like (15, -27) where 15 is the **x** position and -27 is the **y** position.
-
- To get a feel for how this actually works, take the `**go to**` block from motion and drop it onto your **sprite panel**. You don’t need to connect it to anything. ![](assets/moving4.png)
-
- Next, pick some values for **x** and **y**, fill them in, and _double click on the block_. Try different sets of values to see where the cat goes! In Scratch **x** goes from -240 to 240 and **y** goes from -180 to 180.
-
-
-3. Now you know about **x** and **y** coordinates, you can make the cat move up and down! You just need to change its **y** value. You can update your code like this: ![](assets/moving5.png)
-
- Now when the arrows are pressed, the cat can move all over the stage!
-
-4. The cat moves all over the screen, but imagine this is a game: How do you restart it? You need to get the cat back to its original location when the player starts the game. In Scratch, they start the game by clicking on the green flag, so you need to change the cat’s **x** and **y** coordinates when that happens.
-
- That’s actually pretty easy! The centre of the stage is (0,0) in **x** and **y** coordinates. So all you need is an **event** block for that green flag and the **go to** block you’re already using. Set the `**go to**` to (0,0) and then snap it to the flag event block. ![](assets/moving6.png)
